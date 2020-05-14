@@ -25,7 +25,8 @@ const CustomLink = (props) => {
 }
 
 CustomLink.propTypes = {
-  content: PropTypes.string.isRequired
+  content: PropTypes.string.isRequired,
+  isExternal: PropTypes.bool.isRequired
 }
 
 export default CustomLink

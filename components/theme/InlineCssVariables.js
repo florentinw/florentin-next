@@ -1,6 +1,22 @@
 import Terser from 'terser'
 import { Colors } from './Colors'
 
+export function toggleTheme () {
+  const Colors = '🌈'
+
+  const mql = window.matchMedia('(prefers-color-scheme: dark)')
+  const prefersDarkFromMQ = mql.matches
+  const colorMode = prefersDarkFromMQ ? 'light' : 'dark'
+
+  const root = document.documentElement
+
+  Object.entries(Colors).forEach(([name, colorByTheme]) => {
+    const cssVarName = `--${name}`
+
+    root.style.setProperty(cssVarName, colorByTheme[colorMode])
+  })
+}
+
 export function setColorsByTheme () {
   const Colors = '🌈'
 

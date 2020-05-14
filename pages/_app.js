@@ -3,6 +3,7 @@ import React from 'react'
 
 import { Footer, SmallText, CustomLink, Button } from '../components'
 import Providers from '../components/providers'
+import { toggleTheme } from '../components/theme/InlineCssVariables'
 
 import '../assets/css/global.css'
 
