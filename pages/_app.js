@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components'
 
 import { Footer, SmallText, CustomLink, Button } from '../components'
 
+import '../assets/css/global.css'
+
 const themes = {
   light: {
     background: "#FFFFFF",
@@ -35,7 +37,7 @@ export default class MyApp extends App {
           style={{ marginBottom: "100px" }}
           leftContent={<SmallText>2015 - ∞</SmallText>}
           centerContent={<Button>Switch Theme</Button>}
-          rightContent={<CustomLink isExternal={false} to="/legal">Legal</CustomLink>}
+          rightContent={<CustomLink isExternal={false} href="/legal">Legal</CustomLink>}
         />
       </ThemeProvider>
     )

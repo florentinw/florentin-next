@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const StyledLink = styled.a`
   color: ${props => props.color || props.theme.higherContrast || 'black'};
@@ -13,14 +14,18 @@ const StyledLink = styled.a`
 
 const CustomLink = (props) => {
   return props.isExternal ? (
-    <StyledLink target='_blank' rel='noopener noreferrer' href={props.to} {...props} />
+    <StyledLink target='_blank' rel='noopener noreferrer' href={props.href} {...props} />
   ) : (
-    <Link href={props.to} {...props}>
+    <Link href={props.href} {...props}>
       <StyledLink>
         {props.children}
       </StyledLink>
     </Link>
   )
+}
+
+CustomLink.propTypes = {
+  content: PropTypes.string.isRequired
 }
 
 export default CustomLink
