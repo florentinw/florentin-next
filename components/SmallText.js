@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export default styled.p`
-  color: ${props => props.theme.higherContrast};
+  color: var(--higherContrast);
   font-size: 14px;
   font-weight: 400;
   line-height: 1;

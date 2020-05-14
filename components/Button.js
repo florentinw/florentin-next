@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export default styled.button`
-  background-color: ${props => props.theme.higherContrast || 'gray'};
+  background-color: var(--higherContrast);
   border: none;
-  color: ${props => props.theme.background || 'black'};
+  color: var(--background);
   padding: 12px 18px;
   border-radius: 6px;
   text-align: center;
