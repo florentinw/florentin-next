@@ -1,9 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
+import { Header } from '../components'
+import calcAge from '../components/util/calcAge'
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+const index = () => (
+  <>
+    <Header
+      content={`${calcAge(
+        "2002/06/17"
+      )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products`}
+    />
+  </>
+);
 
-export default () => <Title>My page</Title>
+export default index
