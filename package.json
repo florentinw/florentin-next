@@ -16,7 +16,8 @@
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.8.0"
+    "babel-plugin-styled-components": "^1.8.0",
+    "standard": "^14.3.4"
   },
   "license": "ISC"
 }
