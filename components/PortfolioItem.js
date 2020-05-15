@@ -115,7 +115,7 @@ const Wrapper = styled.article`
 
 const PortfolioItem = ({ name, headline, skills, background, addonImage, addonPosition, slug }) => (
   <Link href={`/project/${slug}`}>
-    <a style={{ textDecoration: 'none' }}>
+    <a style={{ textDecoration: 'none' }} aria-label={headline}>
       <Wrapper
         background={background}
         className={`tilt ${slug} addon-postion-${addonPosition}`}
