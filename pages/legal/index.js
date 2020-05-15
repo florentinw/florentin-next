@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
+import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem, CustomLink } from '../../components'
 
 const LegalDisclosure = ({ match }) => (
   <>
@@ -26,8 +26,8 @@ const LegalDisclosure = ({ match }) => (
             Breslauerstraße 12 · 63927 Bürgstadt · Germany
       </BodyText>
       <BodyText>
-        <Highlight>Mail:</Highlight> hello@florentin.design <br />
-        <Highlight>Phone:</Highlight> 0174 8860123
+        <Highlight>Mail:</Highlight> <CustomLink href='mailto:hi@florentin.co?Subject=👋' isExternal>hi@florentin.co</CustomLink> <br />
+        <Highlight>Phone:</Highlight> <CustomLink href='tel:+49 176 47397970‬' isExternal>+49 176 47397970‬</CustomLink>
       </BodyText>
     </Container>
   </>

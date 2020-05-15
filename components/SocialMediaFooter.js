@@ -18,7 +18,7 @@ const SocialMediaFooter = () => (
         Twitter
       </CustomLink>
         , shoot me an{' '}
-      <CustomLink isExternal color='#ffcd65' href='mailto:hello@florentin.design?Subject=👋'>
+      <CustomLink isExternal color='#ffcd65' href='mailto:hi@florentin.co?Subject=👋'>
         Email
       </CustomLink>
       {' '}or let's do some business on{' '}
