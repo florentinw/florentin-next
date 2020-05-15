@@ -39,13 +39,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <meta key='Title' name='title' content='Florentin Walter | Freelance Graphic Designer' />
-          <meta
-            key='Description'
-            name='description' content={`${calcAge(
-            '2002/06/17'
-            )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`}
-          />
           <meta name='apple-mobile-web-app-title' content='Florentin Walter' />
           <meta name='theme-color' content='#eeeeee' />
           <meta name='msapplication-TileColor' content='#222222' />
@@ -54,22 +47,8 @@ export default class MyDocument extends Document {
           <meta property='og:url' content='https://florentin.design' />
           <meta property='og:locale' content='en_US' />
           <meta property='og:site_name' content='florentin.design' />
-          <meta key='OpenGraphTitle' property='og:title' content='Florentin Walter | Freelance Graphic Designer' />
-          <meta
-            key='OpenGraphDescription' property='og:description' content={`${calcAge(
-            '2002/06/17'
-          )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`}
-          />
-          <meta key='OpenGraphCover' property='og:image' content={'https://florentin.design' + require('../assets/imgs/meta/card.jpg')} />
           <meta name='twitter:site' content='@florentin' />
           <meta name='twitter:creator' content='@florentin' />
-          <meta key='TwitterTitle' name='twitter:title' content='Florentin Walter | Freelance Graphic Designer' />
-          <meta
-            key='TwitterDescription' name='twitter:description' content={`${calcAge(
-            '2002/06/17'
-          )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`}
-          />
-          <meta key='TwitterCover' name='twitter:image' content={'https://florentin.design' + require('../assets/imgs/meta/card.jpg')} />
           <meta name='twitter:card' content='summary_large_image' />
           <FallbackStyles />
         </Head>
