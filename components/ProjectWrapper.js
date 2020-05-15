@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Navbar, Header, GoBackHomeButton, PortfolioItemIntroduction } from '.'
+import { Navbar, Header, GoBackHomeButton, PortfolioItemIntroduction, SEO } from '.'
 
 import portfolioData from '../data/portfolio.js'
 
@@ -9,16 +9,7 @@ const ProjectWrapper = ({ children, slug }) => {
   return (
     <>
       <Head>
-        <title>{currentProject.name} | Florentin Walter — Freelance Graphic Designer</title>
-        <meta name='title' content={`${currentProject.name} — Florentin Walter`} />
-        <meta name='description' content={currentProject.summary} />
-        <meta property='og:title' content={`${currentProject.name} — Florentin Walter`} />
-        <meta property='og:description' content={currentProject.summary} />
-        <meta property='og:image' content={'https://florentin.design' + currentProject.seoImage} />
-        <meta property='og:url' content={`https://florentin.design/project/${slug}`} />
-        <meta name='twitter:title' content={`${currentProject.name} — Florentin Walter`} />
-        <meta name='twitter:description' content={currentProject.summary} />
-        <meta name='twitter:image' content={'https://florentin.design' + currentProject.seoImage} />
+        <SEO title={currentProject.name} description={currentProject.summary} image={currentProject.seoImage} slug={`project/${slug}`} />
       </Head>
       <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
       <Header content={currentProject.summary} />

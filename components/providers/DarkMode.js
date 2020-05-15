@@ -2,7 +2,7 @@ import * as React from 'react'
 import useDarkMode from 'use-dark-mode'
 import { Colors } from '../theme/Colors'
 
-export default function DarkMode () {
+export default function DarkMode() {
   const darkMode = useDarkMode(false, { storageKey: null, onChange: null })
 
   React.useEffect(() => {
