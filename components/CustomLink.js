@@ -9,7 +9,7 @@ const StyledLink = styled.a`
   line-height: 1;
   display: inline;
   padding: ${props => (props.noborder ? '0px' : '0 2px 0.15em 2px')};
-  border-bottom: ${props => (props.noborder ? 'none' : `0.15em solid ${'var(--lowerContrast)'}`)};
+  border-bottom: ${props => (props.noborder ? 'none' : '0.15em solid var(--lowerContrast)')};
 `
 
 const CustomLink = (props) => {
@@ -25,8 +25,8 @@ const CustomLink = (props) => {
 }
 
 CustomLink.propTypes = {
-  content: PropTypes.string.isRequired,
-  isExternal: PropTypes.bool.isRequired
+  isExternal: PropTypes.bool.isRequired,
+  noborder: PropTypes.bool
 }
 
 export default CustomLink

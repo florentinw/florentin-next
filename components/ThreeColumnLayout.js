@@ -31,7 +31,7 @@ ThreeColumnLayout.propTypes = {
   leftContent: PropTypes.element.isRequired,
   centerContent: PropTypes.element.isRequired,
   rightContent: PropTypes.element.isRequired,
-  className: PropTypes.string.isRequired
+  className: PropTypes.string
 }
 
 export default ThreeColumnLayout
