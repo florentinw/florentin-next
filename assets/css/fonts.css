@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-regular-webfont.eot');
   src: url('../fonts/basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-regular-webfont.woff2') format('woff2'),
@@ -11,6 +12,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-regularitalic-webfont.eot');
   src: url('../fonts/basiercircle-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-regularitalic-webfont.woff2') format('woff2'),
@@ -22,6 +24,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-medium-webfont.eot');
   src: url('../fonts/basiercircle-medium-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-medium-webfont.woff2') format('woff2'),
@@ -33,6 +36,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-mediumitalic-webfont.eot');
   src: url('../fonts/basiercircle-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-mediumitalic-webfont.woff2') format('woff2'),
@@ -44,6 +48,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-semibold-webfont.eot');
   src: url('../fonts/basiercircle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-semibold-webfont.woff2') format('woff2'),
@@ -55,6 +60,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-semibolditalic-webfont.eot');
   src: url('../fonts/basiercircle-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-semibolditalic-webfont.woff2') format('woff2'),
@@ -66,6 +72,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-bold-webfont.eot');
   src: url('../fonts/basiercircle-bold-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-bold-webfont.woff2') format('woff2'),
@@ -77,6 +84,7 @@
 
 @font-face {
   font-family: 'Basier Circle';
+  font-display: swap;
   src: url('../fonts/basiercircle-bolditalic-webfont.eot');
   src: url('../fonts/basiercircle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/basiercircle-bolditalic-webfont.woff2') format('woff2'),
