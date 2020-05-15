@@ -8464,6 +8464,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vanilla-tilt@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.7.0.tgz#4e6d3c6442c6fa2b45c958c9c2013f31686ab461"
+  integrity sha512-u9yUhpSasFeqQCuiTon+RSb0aHzcj9stvWVXQIswzKL5oG491lkYk7U1GmhOAEZt7yPT6EiYZRJhIh2MFBncOA==
+
 vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"

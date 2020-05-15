@@ -1,4 +1,4 @@
-import { Header, SocialMediaFooter, CustomLink, Logo, Navbar } from '../components'
+import { Header, SocialMediaFooter, CustomLink, Logo, Navbar, PortfolioLayout } from '../components'
 import calcAge from '../components/util/calcAge'
 
 const index = () => (
@@ -12,6 +12,7 @@ const index = () => (
         '2002/06/17'
       )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products`}
     />
+    <PortfolioLayout />
     <SocialMediaFooter />
   </>
 )
