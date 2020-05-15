@@ -3,9 +3,7 @@ import { ProjectWrapper, ImageWithContainer, Section, SectionText, Image } from 
 const OptikBluemelProject = () => (
   <ProjectWrapper slug='optikbluemel'>
     <Section>
-      <ImageWithContainer
-        src={require('../../assets/imgs/portfolio/optikbluemel/desktop.jpg')}
-      />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/optikbluemel/desktop.jpg')} alt='Optik Bluemel Website on a Desktop device' />
       <SectionText
         label='The Website'
         title='Modern, simple &amp; clear'
@@ -13,10 +11,12 @@ const OptikBluemelProject = () => (
       >
         <Image
           src={require('../../assets/imgs/portfolio/optikbluemel/iphone.jpg')}
+          alt='Optik Bluemel Website on a Mobile device'
         />
       </SectionText>
       <ImageWithContainer
         src={require('../../assets/imgs/portfolio/optikbluemel/screenshot.jpg')}
+        alt='Full Optik Bluemel Website'
       />
     </Section>
   </ProjectWrapper>

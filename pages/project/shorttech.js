@@ -3,22 +3,18 @@ import { ProjectWrapper, BodyText, Image, CustomLink, SectionText, Section, Imag
 const ShortTechProject = () => (
   <ProjectWrapper slug='shorttech'>
     <Section>
-      <ImageWithContainer
-        src={require('../../assets/imgs/portfolio/shorttech/business-cards.jpg')}
-      />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/business-cards.jpg')} alt='ShortTech business cards' />
       <SectionText
         label='The Logo'
         title='s + t is short for ShortTech'
         text='The simple, yet clear letter mark endows the young brand with an unique look and high recognition value. It works for all form
             factors from small to big.'
       >
-        <Image src={require('../../assets/imgs/portfolio/shorttech/logo-showcase.jpg')} alt='Logo showcase' />
+        <Image src={require('../../assets/imgs/portfolio/shorttech/logo-showcase.jpg')} alt='ShortTech Logo showcase' />
       </SectionText>
     </Section>
     <Section>
-      <ImageWithContainer
-        src={require('../../assets/imgs/portfolio/shorttech/twitter-app.jpg')}
-      />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/twitter-app.jpg')} alt='ShortTech on Twitter' />
       <SectionText label='Why Twitter' title='Go where your community lives'>
         <BodyText>
           Twitter connects 100 million daily-active users with over 500 million tweets sent per day. 37% of all users are between the
@@ -32,10 +28,10 @@ const ShortTechProject = () => (
       </SectionText>
     </Section>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/website-perspective.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/website-perspective.jpg')} alt='ShortTech website overview' />
       <SectionText label='The Blog' title='In-depth reviews &amp; tutorials'>
         <BodyText>
-          They reached out to further extend their twitter account with a blog. I chose ghost as the CMS of choice, which is
+          They reached out to further extend their twitter account with a blog. I chose Ghost as the CMS of choice, which is
           particularly focused on blogging. The blog covers more in-depth reviews, tutorials and personal opinions on topic around tech
           &amp; media world.
         </BodyText>
@@ -44,10 +40,10 @@ const ShortTechProject = () => (
           layouts delivering real emotions.
         </BodyText>
       </SectionText>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/home.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/home.jpg')} alt='ShortTech website' />
     </Section>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/alexa.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/shorttech/alexa.jpg')} alt='ShortTech is also available using an Alexa Skill' />
       <SectionText label='Alexa Flash Briefing Skill' title='Alexa, tell me the news'>
         <BodyText>
           Together with the team from ShortTech we also developed a custom Alexa Skill, which directly integrates with the newest tweets
@@ -62,10 +58,12 @@ const ShortTechProject = () => (
       <Gallery
         images={[
           {
-            src: require('../../assets/imgs/portfolio/shorttech/stickers.jpg')
+            src: require('../../assets/imgs/portfolio/shorttech/stickers.jpg'),
+            alt: 'ShortTech stickers'
           },
           {
-            src: require('../../assets/imgs/portfolio/shorttech/tshirt.jpg')
+            src: require('../../assets/imgs/portfolio/shorttech/tshirt.jpg'),
+            alt: 'ShortTech merchandise'
           }
         ]}
       />
