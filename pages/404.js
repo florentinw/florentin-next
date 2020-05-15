@@ -4,7 +4,7 @@ import { Header, Navbar, GoBackHomeButton } from '../components'
 const NotFoundPage = () => (
   <>
     <Head>
-      <title>Oops! — Florentin Walter</title>
+      <title>Oops! | Florentin Walter — Freelance Graphic Designer</title>
     </Head>
     <Navbar leftContent={<GoBackHomeButton />} />
     <Header content={'Looks like you\'re lost...\n Sorry, but the page you are looking for does not exist.'} />

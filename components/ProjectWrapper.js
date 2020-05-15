@@ -9,7 +9,7 @@ const ProjectWrapper = ({ children, slug }) => {
   return (
     <>
       <Head>
-        <title>{currentProject.name} — Florentin Walter</title>
+        <title>{currentProject.name} | Florentin Walter — Freelance Graphic Designer</title>
         <meta name='title' content={`${currentProject.name} — Florentin Walter`} />
         <meta name='description' content={currentProject.summary} />
         <meta property='og:title' content={`${currentProject.name} — Florentin Walter`} />

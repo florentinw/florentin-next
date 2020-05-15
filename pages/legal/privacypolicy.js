@@ -4,7 +4,7 @@ import { Header, Subtitle, SubtitleSmall, BodyText, Highlight, CustomLink, Conta
 const PrivacyPolicy = () => (
   <>
     <Head>
-      <title>Privacy Policy — Florentin Walter</title>
+      <title>Privacy Policy | Florentin Walter — Freelance Graphic Designer</title>
     </Head>
     <Navbar
       leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}

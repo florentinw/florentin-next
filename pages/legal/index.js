@@ -4,7 +4,7 @@ import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, Inlin
 const LegalDisclosure = ({ match }) => (
   <>
     <Head>
-      <title>Legal Disclosure — Florentin Walter</title>
+      <title>Legal Disclosure | Florentin Walter — Freelance Graphic Designer</title>
     </Head>
     <Navbar
       leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}

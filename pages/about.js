@@ -4,7 +4,7 @@ import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Ga
 const AboutPage = () => (
   <>
     <Head>
-      <title>About me — Florentin Walter</title>
+      <title>About Me | Florentin Walter — Freelance Graphic Designer</title>
       <meta key='Title' name='title' content='About me — Florentin Walter' />
       <meta
         name='description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
