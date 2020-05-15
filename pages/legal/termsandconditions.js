@@ -7,7 +7,7 @@ const TermsAndConditions = () => (
       <title>Terms &amp; Conditions | Florentin Walter</title>
     </Head>
     <Navbar
-      leftContent={<GoBackHomeButton />}
+      leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}
       rightContent={
         <nav>
           <ul>

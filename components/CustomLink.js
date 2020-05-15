@@ -25,7 +25,6 @@ const CustomLink = (props) => {
 }
 
 CustomLink.propTypes = {
-  children: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
   isExternal: PropTypes.bool,
   noBorder: PropTypes.bool

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export default styled.h4`
+export default styled.span`
   color: var(--lowContrast);
   font-weight: 500;
   font-size: 14px;

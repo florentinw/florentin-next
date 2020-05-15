@@ -7,7 +7,7 @@ const PrivacyPolicy = () => (
       <title>Privacy Policy | Florentin Walter</title>
     </Head>
     <Navbar
-      leftContent={<GoBackHomeButton />}
+      leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}
       rightContent={
         <nav>
           <ul>

@@ -27,7 +27,7 @@ const ProjectWrapper = ({ children, slug }) => {
         />
         <meta key='TwitterCover' name='twitter:image' content={'https://florentin.design' + currentProject.seoImage} />
       </Head>
-      <Navbar leftContent={<GoBackHomeButton />} />
+      <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
       <Header content={currentProject.summary} />
       <PortfolioItemIntroduction client={currentProject.client} skills={currentProject.skills}>
         {currentProject.introduction}
