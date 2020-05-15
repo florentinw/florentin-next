@@ -6,7 +6,6 @@ import {
   FallbackStyles,
   MagicScriptTag
 } from '../components/theme/InlineCssVariables'
-import calcAge from '../components/util/calcAge'
 
 export default class MyDocument extends Document {
   static async getInitialProps (ctx) {

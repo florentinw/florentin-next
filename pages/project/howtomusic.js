@@ -3,7 +3,7 @@ import { BodyText, Section, ImageWithContainer, Gallery, SectionText, CustomLink
 const HowToMusicProject = () => (
   <ProjectWrapper slug='howtomusic'>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/real1.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/real1.jpg')} alt='Application of the poster campaign in Berlin' />
       <SectionText label='The Campaign' title='All throughout Berlin'>
         <BodyText>
           In order to initially promote the show, a poster campaign was initiated. The posters were hung up all over Berlin, where the
@@ -17,26 +17,32 @@ const HowToMusicProject = () => (
       <Gallery
         images={[
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster1.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster1.jpg'),
+            alt: 'Poster with musician Nashira'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster2.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster2.jpg'),
+            alt: 'Poster with musician Danergy'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster3.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster3.jpg'),
+            alt: 'Poster with musician NIC'
           }
         ]}
       />
       <Gallery
         images={[
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster4.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster4.jpg'),
+            alt: 'Poster with musician NME'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster5.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster5.jpg'),
+            alt: 'Poster with musician NIC DNCR'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/poster6.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/poster6.jpg'),
+            alt: 'Poster with musician Arina'
           }
         ]}
       />
@@ -45,30 +51,34 @@ const HowToMusicProject = () => (
       <Gallery
         images={[
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/real2.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/real2.jpg'),
+            alt: 'Application of the poster campaign in Berlin'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/real3.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/real3.jpg'),
+            alt: 'Application of the poster campaign in Berlin'
           }
         ]}
       />
     </Section>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/header.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/header.jpg')} alt='YouTube channel design for HowToMusic' />
       <SectionText label='Channel Designs' title='Present on all channels'>
         <BodyText>
           I designed the complete channel design from banner &amp; profile picture to thumbnail template for all platforms. Working with
           funk branding guidelines gives all channels of the content network a professional and unified look.
         </BodyText>
       </SectionText>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/yt.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/yt.jpg')} alt='Consistent design between all channels: YouTube, Instagram and Twitter' />
       <Gallery
         images={[
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/thumbnail.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/thumbnail.jpg'),
+            alt: 'Thumbnail template'
           },
           {
-            src: require('../../assets/imgs/portfolio/howtomusic/logo.jpg')
+            src: require('../../assets/imgs/portfolio/howtomusic/logo.jpg'),
+            alt: 'Logo design'
           }
         ]}
       />
@@ -82,10 +92,10 @@ const HowToMusicProject = () => (
         </BodyText>
         <BodyText>Besides designing the main channel's look, I was also in charge of the individual channel designs.</BodyText>
       </SectionText>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/talents-header.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/talents-header.jpg')} alt='Social media designs for the individual musicians channels' />
     </Section>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/funk.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/funk.jpg')} alt='Logo of funk' />
       <SectionText label='About funk' title='funk is content network'>
         <BodyText>
           funk unites the online formats from ARD and ZDF, the public service broadcasting in Germany, focused on reaching a younger
