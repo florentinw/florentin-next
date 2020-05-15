@@ -5,15 +5,15 @@ export const Colors = {
   },
   lowerContrast: {
     light: '#E9E9E9',
-    dark: '#333333'
+    dark: '#444444'
   },
   lowContrast: {
-    light: '#aaaaaa',
-    dark: '#888888'
+    light: '#999999',
+    dark: '#999999'
   },
   mediumContrast: {
     light: '#666666',
-    dark: '#aaaaaa'
+    dark: '#bbbbbb'
   },
   highContrast: {
     light: '#333333',
