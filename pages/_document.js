@@ -43,7 +43,6 @@ export default class MyDocument extends Document {
           <meta name='msapplication-TileColor' content='#222222' />
           <meta name='application-name' content='Florentin Walter' />
           <meta property='og:type' content='website' />
-          <meta property='og:url' content='https://florentin.design' />
           <meta property='og:locale' content='en_US' />
           <meta property='og:site_name' content='florentin.design' />
           <meta name='twitter:site' content='@florentin' />

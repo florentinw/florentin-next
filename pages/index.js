@@ -19,6 +19,7 @@ const index = () => (
         )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`}
       />
       <meta property='og:image' content={'https://florentin.design' + require('../assets/imgs/meta/card.jpg')} />
+      <meta property='og:url' content='https://florentin.design' />
       <meta name='twitter:title' content='Florentin Walter | Freelance Graphic Designer' />
       <meta
         name='twitter:description' content={`${calcAge(
