@@ -7,20 +7,19 @@ const AboutPage = () => (
       <title>About me | Florentin Walter</title>
       <meta key='Title' name='title' content='About me | Florentin Walter' />
       <meta
-        key='Description'
         name='description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />
-      <meta key='OpenGraphTitle' property='og:title' content='About me | Florentin Walter' />
+      <meta property='og:title' content='About me | Florentin Walter' />
       <meta
-        key='OpenGraphDescription'
         property='og:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />
-      <meta key='OpenGraphCover' property='og:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
-      <meta key='TwitterTitle' name='twitter:title' content='About me | Florentin Walter' />
+      <meta property='og:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
+      <meta property='og:url' content='https://florentin.design/about' />
+      <meta name='twitter:title' content='About me | Florentin Walter' />
       <meta
-        key='TwitterDescription' name='twitter:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
+        name='twitter:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />
-      <meta key='TwitterCover' name='twitter:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
+      <meta name='twitter:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
     </Head>
     <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
     <Header
