@@ -84,7 +84,7 @@ const HowToMusicProject = () => (
       />
     </Section>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/talents-overview.jpg')} />
+      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/talents-overview.jpg')} alt='Social media designs for the individual musicians channels' />
       <SectionText label='The Talent Channels' title='More content for fans'>
         <BodyText>
           On the individual protagonist's channels viewers have the chance to discover what's going on behind the scenes of How to Music
