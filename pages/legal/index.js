@@ -29,7 +29,7 @@ const LegalDisclosure = ({ match }) => (
       </BodyText>
       <BodyText>
         <Highlight>Mail:</Highlight> <CustomLink href='mailto:hi@florentin.co?Subject=👋' isExternal>hi@florentin.co</CustomLink> <br />
-        <Highlight>Phone:</Highlight> <CustomLink href='tel:+49 176 47397970‬' isExternal>+49 176 47397970‬</CustomLink>
+        <Highlight>Phone:</Highlight> <CustomLink href='tel:004917647397970‬' isExternal>+49 176 47397970‬</CustomLink>
       </BodyText>
     </Container>
   </>
