@@ -1,5 +1,5 @@
 import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem, CustomLink, MetaHead } from '../../components'
-import calcAge from '../components/util/calcAge'
+import calcAge from '../../components/util/calcAge'
 
 const LegalDisclosure = ({ match }) => (
   <>

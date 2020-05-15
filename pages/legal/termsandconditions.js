@@ -1,5 +1,5 @@
 import { Header, Subtitle, BodyText, Container, Navbar, GoBackHomeButton, InlineNavItem, MetaHead } from '../../components'
-import calcAge from '../components/util/calcAge'
+import calcAge from '../../components/util/calcAge'
 
 const TermsAndConditions = () => (
   <>

@@ -1,5 +1,5 @@
 import { Header, Subtitle, SubtitleSmall, BodyText, Highlight, CustomLink, Container, List, Navbar, GoBackHomeButton, InlineNavItem, MetaHead } from '../../components'
-import calcAge from '../components/util/calcAge'
+import calcAge from '../../components/util/calcAge'
 
 const PrivacyPolicy = () => (
   <>
