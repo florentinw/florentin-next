@@ -12,9 +12,7 @@ const ShortTechProject = () => (
         text='The simple, yet clear letter mark endows the young brand with an unique look and high recognition value. It works for all form
             factors from small to big.'
       >
-        <Image
-          src={require('../../assets/imgs/portfolio/shorttech/logo-showcase.jpg')}
-        />
+        <Image src={require('../../assets/imgs/portfolio/shorttech/logo-showcase.jpg')} alt='Logo showcase' />
       </SectionText>
     </Section>
     <Section>
