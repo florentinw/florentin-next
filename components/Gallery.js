@@ -15,16 +15,13 @@ const Item = styled.div`
   margin: 12px 12px;
   > div {
     position: relative;
-    ${squared =>
-    squared
-      ? `&:before {
+    ${squared => squared ? `&:before {
     content: "";
     float: left;
     padding-top: 100%;
-  }`
-      : null}
+  }` : null}
     >img {
-      position: ${squared => (squared ? 'absolute;' : 'relative')};
+      position: ${squared => (squared ? 'absolute' : 'relative')};
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -32,12 +29,12 @@ const Item = styled.div`
   }
 `
 
-const Gallery = ({ images, squared }) => (
+const Gallery = ({ squared, images }) => (
   <Wrapper>
     {images.map((item, index) => {
       return (
         <Item key={index} squared={squared}>
-          <Image src={item.src} />
+          <Image {...item} />
         </Item>
       )
     })}

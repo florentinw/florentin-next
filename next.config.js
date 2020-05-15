@@ -5,7 +5,7 @@ const MDXloader = require('@next/mdx')
 const nextConfig = {
   webpack: (config, options) => {
     config.module.rules.push({
-      test: /\.(png|jpg|gif|svg)$/,
+      test: /\.(svg)$/,
       use: {
         loader: 'url-loader',
         options: {
