@@ -1,14 +1,14 @@
-[![banner](banner.jpg)](#)
+[![banner](banner.jpg)](https://florentin.design)
 
 ---
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/florentin-personal-website/deploys" target="_blank">
-  <img src="https://api.netlify.com/api/v1/badges/178b008e-4f4a-4f37-8601-1fd999b649c7/deploy-status" />
+  <a href="https://florentin.design" target="_blank">
+    <img src="https://img.shields.io/github/deployments/florentinw/florentin-next/production?label=deploy&logo=zeit&style=flat-square" />
   </a>
-   <a href="https://twitter.com/florentin" target="_blank">
-   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/florentin.svg?label=Follow&style=social">
-   </a>
+  <a href="https://twitter.com/florentin" target="_blank">
+   <img alt="Follow @florentin on Twitter" src="https://img.shields.io/twitter/follow/florentin?color=blue&label=follow%20%40florentin&logo=twitter&logoColor=white&style=flat-square">
+  </a>
 </p>
 
 ---
