@@ -10,21 +10,28 @@ const Wrapper = styled(Container)`
   margin: 8px auto;
   justify-content: space-between;
 `
+
 const Item = styled.div`
   flex: 1 0 300px;
-  margin: 12px 12px;
-  > div {
-    position: relative;
-    ${squared => squared ? `&:before {
+  margin: 12px;
+  position: relative;
+  ${squared => squared ? `
+  &::before {
     content: "";
-    float: left;
+    display: block;
     padding-top: 100%;
   }` : null}
-    >img {
-      position: ${squared => (squared ? 'absolute' : 'relative')};
-      width: 100%;
+  > img {
+    ${squared => (squared ? `
+      position: absolute;
       height: 100%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: null;
       object-fit: cover;
+      ` : null)};
+      width: 100%;  
     }
   }
 `
