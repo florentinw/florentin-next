@@ -17,9 +17,9 @@ const AboutPage = () => (
       </BodyText>
       <BodyText>
         With the creation of my design-related YouTube channel at the age of 13 and two years of continuous uploads, I found my way into
-            the video game graphic design community. I also moved away from <CustomLink isExternal href='https://microsoft.com'>PowerPoint</CustomLink>{' '}
-            into the Photoshop world. Through my growing social media presence, I initially got my first few jobs mostly doing work for
-            individuals in the social media world.
+        the video game graphic design community. I also moved away from <CustomLink isExternal href='https://microsoft.com'>PowerPoint</CustomLink>{' '}
+        into the Photoshop world. Through my growing social media presence, I initially got my first few jobs mostly doing work for
+        individuals in the social media world.
       </BodyText>
       <BodyText>
         Since then I’ve been expanding my skillset, began developing my knowledge, taught myself how to code and eventually started my
@@ -37,7 +37,7 @@ const AboutPage = () => (
           </BodyText> */}
       <BodyText>
         When I am not pushing pixels, and besides being a student, you may find me trying out the hottest new design tools, shooting
-        some sick photographs on Instagram – or oftentimes just snacking some delicious chocolate.
+        some sick photographs on Instagram – or often just snacking some delicious chocolate.
       </BodyText>
     </SectionText>
     <SectionText label='Expertise' title='My focus'>
