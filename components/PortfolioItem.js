@@ -127,7 +127,7 @@ const PortfolioItem = ({ name, headline, skills, background, addonImage, addonPo
         </Subtitle>
         <Label>{skills}</Label>
         <AddonWrapper>
-          <AddonImage src={addonImage} />
+          <AddonImage src={addonImage} alt={name} />
         </AddonWrapper>
       </Wrapper>
     </a>
