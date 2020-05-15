@@ -9,14 +9,14 @@ const Wrapper = styled(Container)`
 const SocialMediaFooter = () => (
   <Wrapper>
     <Subtitle>
-        Find out about what I’m currently working on over at{' '}
+      Find out about what I’m currently working on over at{' '}
       <CustomLink isExternal color='#ff73c5' href='https://dribbble.com/florentin'>
         Dribbble
       </CustomLink>
         , like some of my awesome tweets on{' '}
       <CustomLink isExternal color='#1da1f2' href='https://twitter.com/florentin'>
         Twitter
-      </CustomLink>{' '}
+      </CustomLink>
         , shoot me an{' '}
       <CustomLink isExternal color='#ffcd65' href='mailto:hello@florentin.design?Subject=👋'>
         Email

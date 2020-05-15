@@ -10,6 +10,7 @@ const CustomNavLinkWrapper = styled.a`
   text-decoration: none;
   line-height: 1;
   display: inline;
+  cursor: pointer;
   padding: ${props => (props.noborder ? '0px' : '0 2px 0.15em 2px')};
   border-bottom: ${props => (props.noborder ? 'none' : '0.15em solid var(--lowerContrast)')};
   &.active {
