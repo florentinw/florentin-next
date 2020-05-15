@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Link from 'next/link'
 
 import { Label, Subtitle } from '.'
 
@@ -113,21 +114,24 @@ const Wrapper = styled.article`
 `
 
 const PortfolioItem = ({ name, headline, skills, background, addonImage, addonPosition, slug }) => (
-  <>
-    <Wrapper
-      background={background}
-      className={`${slug} addon-postion-${addonPosition}`}
-    >
-      <Label>{name}</Label>
-      <Subtitle nopadding='true' style={{ lineHeight: 1.2 }}>
-        {headline}
-      </Subtitle>
-      <Label>{skills}</Label>
-      <AddonWrapper>
-        <AddonImage src={addonImage} />
-      </AddonWrapper>
-    </Wrapper>
-  </>
+  <Link href={`/project/${slug}`}>
+    <a style={{ textDecoration: 'none' }}>
+      <Wrapper
+        background={background}
+        className={`tilt ${slug} addon-postion-${addonPosition}`}
+        style={{ transformStyle: 'preserve-3d' }}
+      >
+        <Label>{name}</Label>
+        <Subtitle nopadding='true' style={{ lineHeight: 1.2 }}>
+          {headline}
+        </Subtitle>
+        <Label>{skills}</Label>
+        <AddonWrapper>
+          <AddonImage src={addonImage} />
+        </AddonWrapper>
+      </Wrapper>
+    </a>
+  </Link>
 )
 
 PortfolioItem.propTypes = {
