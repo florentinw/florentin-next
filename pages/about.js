@@ -4,18 +4,18 @@ import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Ga
 const AboutPage = () => (
   <>
     <Head>
-      <title>About me | Florentin Walter</title>
-      <meta key='Title' name='title' content='About me | Florentin Walter' />
+      <title>About me — Florentin Walter</title>
+      <meta key='Title' name='title' content='About me — Florentin Walter' />
       <meta
         name='description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />
-      <meta property='og:title' content='About me | Florentin Walter' />
+      <meta property='og:title' content='About me — Florentin Walter' />
       <meta
         property='og:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />
       <meta property='og:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
       <meta property='og:url' content='https://florentin.design/about' />
-      <meta name='twitter:title' content='About me | Florentin Walter' />
+      <meta name='twitter:title' content='About me — Florentin Walter' />
       <meta
         name='twitter:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
       />

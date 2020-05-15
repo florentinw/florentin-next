@@ -5,14 +5,14 @@ import calcAge from '../components/util/calcAge'
 const index = () => (
   <>
     <Head>
-      <title>Florentin Walter | Freelance Graphic Designer</title>
-      <meta name='title' content='Florentin Walter | Freelance Graphic Designer' />
+      <title>Florentin Walter — Freelance Graphic Designer</title>
+      <meta name='title' content='Florentin Walter — Freelance Graphic Designer' />
       <meta
         name='description' content={`${calcAge(
           '2002/06/17'
         )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`}
       />
-      <meta property='og:title' content='Florentin Walter | Freelance Graphic Designer' />
+      <meta property='og:title' content='Florentin Walter — Freelance Graphic Designer' />
       <meta
         property='og:description' content={`${calcAge(
           '2002/06/17'
@@ -20,7 +20,7 @@ const index = () => (
       />
       <meta property='og:image' content={'https://florentin.design' + require('../assets/imgs/meta/card.jpg')} />
       <meta property='og:url' content='https://florentin.design' />
-      <meta name='twitter:title' content='Florentin Walter | Freelance Graphic Designer' />
+      <meta name='twitter:title' content='Florentin Walter — Freelance Graphic Designer' />
       <meta
         name='twitter:description' content={`${calcAge(
           '2002/06/17'
