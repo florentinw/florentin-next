@@ -1,7 +1,11 @@
+import Head from 'next/head'
 import { Header, Subtitle, BodyText, Container, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
 
 const TermsAndConditions = () => (
   <>
+    <Head>
+      <title>Terms &amp; Conditions | Florentin</title>
+    </Head>
     <Navbar
       leftContent={<GoBackHomeButton />}
       rightContent={

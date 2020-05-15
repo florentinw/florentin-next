@@ -1,7 +1,11 @@
+import Head from 'next/head'
 import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
 
 const LegalDisclosure = ({ match }) => (
   <>
+    <Head>
+      <title>Legal Disclosure | Florentin</title>
+    </Head>
     <Navbar
       leftContent={<GoBackHomeButton />}
       rightContent={

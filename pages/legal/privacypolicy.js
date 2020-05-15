@@ -1,7 +1,11 @@
+import Head from 'next/head'
 import { Header, Subtitle, SubtitleSmall, BodyText, Highlight, CustomLink, Container, List, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
 
 const PrivacyPolicy = () => (
   <>
+    <Head>
+      <title>Privacy Policy | Florentin</title>
+    </Head>
     <Navbar
       leftContent={<GoBackHomeButton />}
       rightContent={
