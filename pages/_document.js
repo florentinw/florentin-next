@@ -38,16 +38,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <meta name='apple-mobile-web-app-title' content='Florentin Walter' />
-          <meta name='theme-color' content='#eeeeee' />
-          <meta name='msapplication-TileColor' content='#222222' />
-          <meta name='application-name' content='Florentin Walter' />
-          <meta property='og:type' content='website' />
-          <meta property='og:locale' content='en_US' />
-          <meta property='og:site_name' content='florentin.design' />
-          <meta name='twitter:site' content='@florentin' />
-          <meta name='twitter:creator' content='@florentin' />
-          <meta name='twitter:card' content='summary_large_image' />
           <FallbackStyles />
         </Head>
 

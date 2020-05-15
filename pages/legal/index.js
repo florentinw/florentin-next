@@ -1,11 +1,13 @@
-import Head from 'next/head'
-import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem, CustomLink } from '../../components'
+import { Header, BodyText, Highlight, Container, Navbar, GoBackHomeButton, InlineNavItem, CustomLink, MetaHead } from '../../components'
+import calcAge from '../components/util/calcAge'
 
 const LegalDisclosure = ({ match }) => (
   <>
-    <Head>
-      <title>Legal Disclosure | Florentin Walter — Freelance Graphic Designer</title>
-    </Head>
+    <MetaHead
+      title='Legal Disclosure' description={`${calcAge(
+        '2002/06/17'
+      )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`} image={require('../assets/imgs/meta/card.jpg')} slug=''
+    />
     <Navbar
       leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}
       rightContent={
