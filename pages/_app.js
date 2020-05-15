@@ -15,7 +15,7 @@ export default class MyApp extends App {
         <Footer
           style={{ marginBottom: '100px' }}
           leftContent={<SmallText>2015 - ∞</SmallText>}
-          rightContent={<CustomLink isExternal={false} href='/legal/'>Legal</CustomLink>}
+          rightContent={<CustomLink isExternal={false} href='/legal'>Legal</CustomLink>}
         />
       </Providers>
     )
