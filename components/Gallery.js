@@ -15,14 +15,14 @@ const Item = styled.div`
   flex: 1 0 300px;
   margin: 12px;
   position: relative;
-  ${squared => (squared ? `
+  ${props => props.squared && `
   &::before {
     content: "";
     display: block;
     padding-top: 100%;
-  }` : null)}
+  }`}
   > img {
-    ${squared => (squared ? `
+    ${props => props.squared && `
       position: absolute;
       height: 100%;
       top: 0;
@@ -30,7 +30,7 @@ const Item = styled.div`
       left: 0;
       bottom: null;
       object-fit: cover;
-      ` : null)};
+      `}
       width: 100%;  
     }
   }
@@ -39,6 +39,7 @@ const Item = styled.div`
 const Gallery = ({ squared, images }) => (
   <Wrapper>
     {images.map((item, index) => {
+      console.log(squared)
       return (
         <Item key={index} squared={squared}>
           <Image {...item} />
