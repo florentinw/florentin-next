@@ -66,13 +66,16 @@ const AboutPage = () => (
       squared
       images={[
         {
-          src: require('../assets/imgs/about/setup.jpg')
+          src: require('../assets/imgs/about/setup.jpg'),
+          alt: 'My setup'
         },
         {
-          src: require('../assets/imgs/about/work.jpg')
+          src: require('../assets/imgs/about/work.jpg'),
+          alt: 'Working close together with my clients'
         },
         {
-          src: require('../assets/imgs/about/me.jpg')
+          src: require('../assets/imgs/about/me.jpg'),
+          alt: 'Myself'
         }
       ]}
     />
