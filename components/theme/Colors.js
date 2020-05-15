@@ -12,7 +12,7 @@ export const Colors = {
     dark: '#888888'
   },
   mediumContrast: {
-    light: '#888888',
+    light: '#666666',
     dark: '#aaaaaa'
   },
   highContrast: {
