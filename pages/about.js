@@ -1,4 +1,4 @@
-import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink } from '../components'
+import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Gallery } from '../components'
 
 const AboutPage = () => (
   <>
@@ -42,6 +42,20 @@ const AboutPage = () => (
         think I’m capable of.
       </BodyText>
     </SectionText>
+    <Gallery
+      squared
+      images={[
+        {
+          src: require('../assets/imgs/about/setup.jpg')
+        },
+        {
+          src: require('../assets/imgs/about/work.jpg')
+        },
+        {
+          src: require('../assets/imgs/about/me.jpg')
+        }
+      ]}
+    />
   </>
 )
 

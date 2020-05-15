@@ -1,8 +1,9 @@
-const withMDX = require('@next/mdx')()
+const withPlugins = require('next-compose-plugins')
+const optimizedImages = require('next-optimized-images')
+const MDXloader = require('@next/mdx')
 
-module.exports = withMDX({
-  pageExtensions: ['js', 'mdx'],
-  webpack (config, options) {
+const nextConfig = {
+  webpack: (config, options) => {
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg)$/,
       use: {
@@ -14,4 +15,11 @@ module.exports = withMDX({
     })
     return config
   }
-})
+}
+
+module.exports = withPlugins([
+  [optimizedImages],
+  [MDXloader, {
+    pageExtensions: ['js', 'mdx']
+  }]
+], nextConfig)
