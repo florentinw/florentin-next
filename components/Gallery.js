@@ -39,7 +39,6 @@ const Item = styled.div`
 const Gallery = ({ squared, images }) => (
   <Wrapper>
     {images.map((item, index) => {
-      console.log(squared)
       return (
         <Item key={index} squared={squared}>
           <Image {...item} />
