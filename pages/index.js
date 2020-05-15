@@ -1,8 +1,12 @@
+import Head from 'next/head'
 import { Header, SocialMediaFooter, CustomLink, Logo, Navbar, PortfolioLayout } from '../components'
 import calcAge from '../components/util/calcAge'
 
 const index = () => (
   <>
+    <Head>
+      <title>Florentin | Freelance Graphic Designer</title>
+    </Head>
     <Navbar
       leftContent={<Logo />}
       rightContent={<CustomLink href='/about'>about</CustomLink>}

@@ -1,7 +1,11 @@
+import Head from 'next/head'
 import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Gallery } from '../components'
 
 const AboutPage = () => (
   <>
+    <Head>
+      <title>About me | Florentin</title>
+    </Head>
     <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
     <Header
       content={'Hi there!\nI\'m Florentin, a young digital product designer from Germany focused on creating digital products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
