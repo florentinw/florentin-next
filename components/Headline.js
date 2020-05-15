@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export default styled.h1`
   color: var(--higherContrast);
@@ -11,4 +11,4 @@ export default styled.h1`
   @media screen and (max-width: 425px) {
     font-size: 32px;
   }
-`;
+`
