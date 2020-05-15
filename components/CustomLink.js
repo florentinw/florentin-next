@@ -8,16 +8,16 @@ const StyledLink = styled.a`
   text-decoration: none;
   line-height: 1;
   display: inline;
-  padding: ${props => (props.noborder ? '0px' : '0 2px 0.15em 2px')};
-  border-bottom: ${props => (props.noborder ? 'none' : '0.15em solid var(--lowerContrast)')};
+  padding: ${props => (props.noBorder ? '0px' : '0 2px 0.15em 2px')};
+  border-bottom: ${props => (props.noBorder ? 'none' : '0.15em solid var(--lowerContrast)')};
 `
 
 const CustomLink = (props) => {
   return props.isExternal ? (
     <StyledLink target='_blank' rel='noopener noreferrer' href={props.href} {...props} />
   ) : (
-    <Link href={props.href} {...props}>
-      <StyledLink>
+    <Link href={props.href}>
+      <StyledLink {...props}>
         {props.children}
       </StyledLink>
     </Link>
@@ -25,8 +25,10 @@ const CustomLink = (props) => {
 }
 
 CustomLink.propTypes = {
-  isExternal: PropTypes.bool.isRequired,
-  noborder: PropTypes.bool
+  children: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  isExternal: PropTypes.bool,
+  noBorder: PropTypes.bool
 }
 
 export default CustomLink

@@ -14,7 +14,7 @@ const Wrapper = styled.li`
 
 const InlineNavItem = ({ children, href }) => (
   <Wrapper>
-    <CustomNavLink exact href={href} activeclass='active'>
+    <CustomNavLink href={href}>
       {children}
     </CustomNavLink>
   </Wrapper>

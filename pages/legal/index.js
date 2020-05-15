@@ -7,9 +7,9 @@ const LegalDisclosure = ({ match }) => (
       rightContent={
         <nav>
           <ul>
-            <InlineNavItem href='/legal/'>Legal Disclosure</InlineNavItem>
+            <InlineNavItem href='/legal'>Legal Disclosure</InlineNavItem>
             <InlineNavItem href='/legal/privacypolicy'>Privacy Policy</InlineNavItem>
-            <InlineNavItem href='/legal/termsandconditions/'>Terms &amp; Conditions</InlineNavItem>
+            <InlineNavItem href='/legal/termsandconditions'>Terms &amp; Conditions</InlineNavItem>
           </ul>
         </nav>
       }

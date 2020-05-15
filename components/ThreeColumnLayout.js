@@ -28,9 +28,9 @@ const ThreeColumnLayout = ({ leftContent, centerContent, rightContent, className
 )
 
 ThreeColumnLayout.propTypes = {
-  leftContent: PropTypes.element.isRequired,
-  centerContent: PropTypes.element.isRequired,
-  rightContent: PropTypes.element.isRequired,
+  leftContent: PropTypes.element,
+  centerContent: PropTypes.element,
+  rightContent: PropTypes.element,
   className: PropTypes.string
 }
 

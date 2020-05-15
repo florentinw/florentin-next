@@ -1,6 +1,8 @@
+import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 import PropTypes from 'prop-types'
+import { useRouter } from 'next/router'
 
 const CustomNavLinkWrapper = styled.a`
   color: ${props => props.color || 'var(--higherContrast)'};
@@ -15,13 +17,23 @@ const CustomNavLinkWrapper = styled.a`
   }
 `
 
-const CustomNavLink = (props) => (
-  <Link href={props.href} {...props}>
-    <CustomNavLinkWrapper>
-      {props.children}
-    </CustomNavLinkWrapper>
-  </Link>
-)
+const CustomNavLink = (props) => {
+  const router = useRouter()
+
+  let className = props.className || ''
+  if (router.pathname === props.href) {
+    className = `${className} active`
+  }
+
+  return (
+    <Link href={props.href} {...props}>
+      {React.cloneElement((
+        <CustomNavLinkWrapper>
+          {props.children}
+        </CustomNavLinkWrapper>), { className })}
+    </Link>
+  )
+}
 
 CustomNavLink.propTypes = {
   href: PropTypes.string.isRequired

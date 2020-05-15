@@ -13,7 +13,7 @@ const Wrapper = styled(CustomLink)`
 `
 
 const GoBackButton = ({ children }) => (
-  <Wrapper isExternal={false} href='/' noborder>
+  <Wrapper isExternal={false} href='/' noBorder>
     <ChevronBackIcon />
     {children}
   </Wrapper>

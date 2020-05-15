@@ -1,7 +1,19 @@
-import { Header, Subtitle, SubtitleSmall, BodyText, Highlight, CustomLink, Container, List } from '../../components'
+import { Header, Subtitle, SubtitleSmall, BodyText, Highlight, CustomLink, Container, List, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
 
 const PrivacyPolicy = () => (
   <>
+    <Navbar
+      leftContent={<GoBackHomeButton />}
+      rightContent={
+        <nav>
+          <ul>
+            <InlineNavItem href='/legal/'>Legal Disclosure</InlineNavItem>
+            <InlineNavItem href='/legal/privacypolicy'>Privacy Policy</InlineNavItem>
+            <InlineNavItem href='/legal/termsandconditions/'>Terms &amp; Conditions</InlineNavItem>
+          </ul>
+        </nav>
+      }
+    />
     <Header content='In general, our website can be used without providing any personal data. If personal data (such as name, postal or email addresses) are collected, this will occur on a voluntary basis' />
     <Container>
       <Subtitle>General</Subtitle>

@@ -1,7 +1,19 @@
-import { Header, Subtitle, BodyText, Container } from '../../components'
+import { Header, Subtitle, BodyText, Container, Navbar, GoBackHomeButton, InlineNavItem } from '../../components'
 
 const TermsAndConditions = () => (
   <>
+    <Navbar
+      leftContent={<GoBackHomeButton />}
+      rightContent={
+        <nav>
+          <ul>
+            <InlineNavItem href='/legal/'>Legal Disclosure</InlineNavItem>
+            <InlineNavItem href='/legal/privacypolicy'>Privacy Policy</InlineNavItem>
+            <InlineNavItem href='/legal/termsandconditions/'>Terms &amp; Conditions</InlineNavItem>
+          </ul>
+        </nav>
+      }
+    />
     <Header content='Terms &amp; Conditions' />
     <Container>
       <Subtitle>General</Subtitle>
