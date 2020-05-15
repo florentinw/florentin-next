@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-
 import { Container, Image } from '.'
+import Fade from 'react-reveal/Fade'
 
 const StyledImage = styled(Image)`
   @media screen and (max-width: 768px) {
@@ -16,9 +16,11 @@ const StyledContainer = styled(Container)`
 `
 
 const ImageWithContainer = (props) => (
-  <StyledContainer>
-    <StyledImage {...props} />
-  </StyledContainer>
+  <Fade bottom>
+    <StyledContainer>
+      <StyledImage {...props} />
+    </StyledContainer>
+  </Fade>
 )
 
 export default ImageWithContainer

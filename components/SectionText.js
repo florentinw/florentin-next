@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Fade from 'react-reveal/Fade'
 
 import { Container, Label, Subtitle, BodyText } from '.'
 
@@ -24,14 +25,16 @@ const ContentColumn = styled.main`
 `
 
 const SectionText = ({ label, title, text, children }) => (
-  <Wrapper>
-    <TitleColumn>
-      {label ? <Label>{label}</Label> : null}
-      {title ? <Subtitle nopadding='true'>{title}</Subtitle> : null}
-      {text ? <BodyText>{text}</BodyText> : null}
-    </TitleColumn>
-    <ContentColumn>{children}</ContentColumn>
-  </Wrapper>
+  <Fade bottom>
+    <Wrapper>
+      <TitleColumn>
+        {label ? <Label>{label}</Label> : null}
+        {title ? <Subtitle nopadding='true'>{title}</Subtitle> : null}
+        {text ? <BodyText>{text}</BodyText> : null}
+      </TitleColumn>
+      <ContentColumn>{children}</ContentColumn>
+    </Wrapper>
+  </Fade>
 )
 
 SectionText.propTypes = {
