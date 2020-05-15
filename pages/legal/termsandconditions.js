@@ -6,7 +6,7 @@ const TermsAndConditions = () => (
     <MetaHead
       title='Terms and Conditions' description={`${calcAge(
         '2002/06/17'
-      )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`} image={require('../assets/imgs/meta/card.jpg')} slug=''
+      )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`} image={require('../../assets/imgs/meta/card.jpg')} slug=''
     />
     <Navbar
       leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>}
