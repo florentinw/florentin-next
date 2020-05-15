@@ -9,7 +9,7 @@ const ProjectWrapper = ({ children, slug }) => {
   return (
     <>
       <Head>
-        <title>{currentProject.name} | Florentin</title>
+        <title>{currentProject.name} | Florentin Walter</title>
       </Head>
       <Navbar leftContent={<GoBackHomeButton />} />
       <Header content={currentProject.summary} />

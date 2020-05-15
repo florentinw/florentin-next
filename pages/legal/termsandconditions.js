@@ -4,7 +4,7 @@ import { Header, Subtitle, BodyText, Container, Navbar, GoBackHomeButton, Inline
 const TermsAndConditions = () => (
   <>
     <Head>
-      <title>Terms &amp; Conditions | Florentin</title>
+      <title>Terms &amp; Conditions | Florentin Walter</title>
     </Head>
     <Navbar
       leftContent={<GoBackHomeButton />}

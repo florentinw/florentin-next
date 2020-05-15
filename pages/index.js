@@ -5,7 +5,7 @@ import calcAge from '../components/util/calcAge'
 const index = () => (
   <>
     <Head>
-      <title>Florentin | Freelance Graphic Designer</title>
+      <title>Florentin Walter | Freelance Graphic Designer</title>
     </Head>
     <Navbar
       leftContent={<Logo />}

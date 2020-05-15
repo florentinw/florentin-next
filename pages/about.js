@@ -4,11 +4,27 @@ import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Ga
 const AboutPage = () => (
   <>
     <Head>
-      <title>About me | Florentin</title>
+      <title>About me | Florentin Walter</title>
+      <meta key='Title' name='title' content='About me | Florentin Walter' />
+      <meta
+        key='Description'
+        name='description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
+      />
+      <meta key='OpenGraphTitle' property='og:title' content='About me | Florentin Walter' />
+      <meta
+        key='OpenGraphDescription'
+        property='og:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
+      />
+      <meta key='OpenGraphCover' property='og:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
+      <meta key='TwitterTitle' name='twitter:title' content='About me | Florentin Walter' />
+      <meta
+        key='TwitterDescription' name='twitter:description' content={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'}
+      />
+      <meta key='TwitterCover' name='twitter:image' content={'https://florentin.design' + require('../assets/imgs/about/card.jpg')} />
     </Head>
     <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
     <Header
-      content={'Hi there!\nI\'m Florentin, a young digital product designer from Germany focused on creating digital products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
+      content={'Hi there!\nI\'m Florentin Walter, a young digital product designer from Germany focused on creating digital products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
     />
     <SectionText label='My journey' title='I actually started out in Microsoft Word'>
       <BodyText>
