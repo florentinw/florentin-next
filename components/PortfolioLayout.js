@@ -25,10 +25,8 @@ const PortfolioLayout = () => {
       window.VanillaTilt = require('vanilla-tilt')
       window.VanillaTilt.init(document.querySelectorAll('.tilt'), {
         scale: 1.0175,
-        max: 8,
-        speed: 1000,
-        gyroscopeMinAngleX: -30,
-        gyroscopeMaxAngleX: 30
+        max: 4,
+        speed: 800
       })
     }
   })
