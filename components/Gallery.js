@@ -15,12 +15,12 @@ const Item = styled.div`
   flex: 1 0 300px;
   margin: 12px;
   position: relative;
-  ${squared => squared ? `
+  ${squared => (squared ? `
   &::before {
     content: "";
     display: block;
     padding-top: 100%;
-  }` : null}
+  }` : null)}
   > img {
     ${squared => (squared ? `
       position: absolute;
