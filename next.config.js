@@ -1,6 +1,5 @@
 const withPlugins = require('next-compose-plugins')
 const optimizedImages = require('next-optimized-images')
-const MDXloader = require('@next/mdx')
 
 const nextConfig = {
   webpack: (config, options) => {
@@ -18,8 +17,5 @@ const nextConfig = {
 }
 
 module.exports = withPlugins([
-  [optimizedImages],
-  [MDXloader, {
-    pageExtensions: ['js', 'mdx']
-  }]
+  [optimizedImages]
 ], nextConfig)
