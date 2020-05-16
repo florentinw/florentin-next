@@ -3,7 +3,7 @@ import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Ga
 const AboutPage = () => (
   <>
     <MetaHead
-      title='About me' description={'Hi there! I\'m Florentin, a young designer from Germany, focused on creating beautiful products for humans.'} image='/meta/about-card.jpg' slug='about'
+      title='About Me' description={'Hi there! I\'m Florentin, a young designer from Germany, focused on creating beautiful products for humans.'} image='/meta/about-card.jpg' slug='about'
     />
     <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
     <Header
