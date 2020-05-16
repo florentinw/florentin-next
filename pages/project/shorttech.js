@@ -32,7 +32,7 @@ const ShortTechProject = () => (
       <SectionText label='The Blog' title='In-depth reviews &amp; tutorials'>
         <BodyText>
           They reached out to further extend their twitter account with a blog. I chose Ghost as the CMS of choice, which is
-          particularly focused on blogging. The blog covers more in-depth reviews, tutorials and personal opinions on topic around tech
+          particularly focused on blogging. The blog covers more in-depth reviews, tutorials and personal opinions on topics around tech
           &amp; media world.
         </BodyText>
         <BodyText>
