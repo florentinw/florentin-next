@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next --port 8000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "create:sitemap": "node sitemap-gen.js"
   },
   "dependencies": {
     "imagemin-mozjpeg": "^8.0.0",
