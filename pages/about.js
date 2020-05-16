@@ -3,11 +3,11 @@ import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Ga
 const AboutPage = () => (
   <>
     <MetaHead
-      title='About me' description={'Hi there! I\'m Florentin Walter, a young digital product designer from Germany, focused on creating digital products for humans.'} image='/meta/about-card.jpg' slug='about'
+      title='About me' description={'Hi there! I\'m Florentin, a young designer from Germany, focused on creating beautiful products for humans.'} image='/meta/about-card.jpg' slug='about'
     />
     <Navbar leftContent={<GoBackHomeButton>Back to my works</GoBackHomeButton>} />
     <Header
-      content={'Hi there!\nI\'m Florentin Walter, a young digital product designer from Germany focused on creating digital products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
+      content={'Hi there!\nI\'m Florentin, a young designer from Germany focused on creating beautiful products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
     />
     <SectionText label='My journey' title='I actually started out in Microsoft Word'>
       <BodyText>
