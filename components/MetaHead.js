@@ -10,7 +10,7 @@ const MetaHead = ({ title, description, image, slug, children, isHome }) => (
     <meta property='og:description' content={description} />
     <meta property='og:image' content={'https://florentin.design' + image} />
     <meta property='og:url' content={`https://florentin.design/${slug}`} />
-    <meta name='twitter:title' content={`${title} — Florentin Walter`} />
+    <meta name='twitter:title' content={isHome ? title : `${title} — Florentin Walter`} />
     <meta name='twitter:description' content={description} />
     <meta name='twitter:image' content={'https://florentin.design' + image} />
     <meta name='apple-mobile-web-app-title' content='Florentin Walter' />

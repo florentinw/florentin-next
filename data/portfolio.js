@@ -28,7 +28,7 @@ export default {
       src: require('../assets/imgs/portfolio/howtomusic/cover/background.jpg')
     },
     addonImage: require('../assets/imgs/portfolio/howtomusic/poster2.jpg'),
-    seoImage: require('../public/meta/howtomusic.jpg')
+    seoImage: '/meta/howtomusic.jpg'
   },
   shorttech: {
     name: 'ShortTech',
@@ -54,7 +54,7 @@ export default {
       to: '#1DA6CB'
     },
     addonImage: require('../assets/imgs/portfolio/shorttech/cover/addon.jpg'),
-    seoImage: require('../public/meta/shorttech.jpg')
+    seoImage: '/meta/shorttech.jpg'
   },
   optikbluemel: {
     name: 'Optik Blümel',
@@ -82,6 +82,6 @@ export default {
       from: '#222427'
     },
     addonImage: require('../assets/imgs/portfolio/optikbluemel/cover/addon.jpg'),
-    seoImage: require('../public/meta/optikbluemel.jpg')
+    seoImage: '/meta/optikbluemel.jpg'
   }
 }
