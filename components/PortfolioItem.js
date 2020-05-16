@@ -76,6 +76,10 @@ const Wrapper = styled.article`
   }
   &.howtomusic {
     background: ${p => `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("${p.background.src}") no-repeat center / cover`};
+    
+    ${Subtitle} {
+      max-width: 55%;
+    }
   }
   &.shorttech {
     padding-bottom: 60%;
