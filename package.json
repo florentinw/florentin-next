@@ -1,6 +1,16 @@
 {
-  "name": "with-styled-components",
-  "version": "1.0.0",
+  "name": "florentin-next",
+  "description": "Personal Website powered by Next.js, served by Vercel",
+  "homepage": "https://florentin.design",
+  "author": "Florentin Walter <hello@florentin.design> (https://florentin.design)",
+  "contributors": [
+      "Tobias Möritz <tobias@moeritz.cc> (https://moeritz.io)"
+    ],
+  "version": "2.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "github:florentinw/florentin-next",
+  "bugs": "https://github.com/florentinw/florentin-next/issues",
+  "private": true,
   "scripts": {
     "dev": "next --port 8000",
     "build": "next build",
@@ -29,6 +39,5 @@
     "file-loader": "^6.0.0",
     "standard": "^14.3.4",
     "url-loader": "^4.1.0"
-  },
-  "license": "ISC"
+  }
 }
