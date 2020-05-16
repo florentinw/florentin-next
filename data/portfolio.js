@@ -4,7 +4,7 @@ export default {
   howtomusic: {
     name: 'How To Music',
     client: 'United Creators PMB GmbH',
-    headline: 'Designing physical campaings for a digital product',
+    headline: 'Designing physical campaigns for a digital product',
     skills: 'Print Design',
     summary:
       'In the funk-produced YouTube series "How to Music", the audience accompanies six up-and-coming musicians who are breaking new ground in the music industry.',
