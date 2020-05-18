@@ -25,6 +25,7 @@ const MetaHead = ({ title, description, image, slug, children, isHome }) => (
     <meta name='twitter:site' content='@florentin' />
     <meta name='twitter:creator' content='@florentin' />
     <meta name='twitter:card' content='summary_large_image' />
+    <link rel='canonical' href={`https://florentin.design/${slug}`} />
     <link rel='shortcut icon' href='https://florentin.design/favicon.ico' type='image/x-icon' />
     <meta property='og:logo' content='https://florentin.design/logo-400.jpg' size='400x400' />
     <meta property='og:logo' content='https://florentin.design/logo-128.jpg' ize='128x128' />
