@@ -1,31 +1,34 @@
-import App from "next/app";
-import React from "react";
+import { useEffect } from "react";
 import Router from "next/router";
-import useAckee from "use-ackee";
+import * as ackeeTracker from "ackee-tracker";
 
 import { Footer, SmallText, CustomLink } from "../components";
 import Providers from "../components/providers";
 
 import "../assets/css/global.css";
 
-Router.events.on("routeChangeComplete", (url) => {
-  useAckee(
-    url,
-    {
+
+
+const MyApp = (props) =>{
+  const { Component, pageProps } = props;
+
+  useEffect(() => {
+    const ackeeTrackerInstance = ackeeTracker.create({
       server: "https://analytics.florentin.moeritz.io",
       domainId: "838a9105-9d85-48c1-b9ea-4ad4491c2813",
-    },
-    {
-      ignoreLocalhost: false,
+    }, {
+      ignoreLocalhost: true,
       detailed: true,
-    }
-  );
-});
+    })
+    ackeeTrackerInstance.record()
 
-export default class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    return (
+    Router.events.on("routeChangeComplete", (path) => {
+      ackeeTrackerInstance.record()
+    });
+
+  },[]);
+
+  return (
       <Providers>
         <Component {...pageProps} />
         <Footer
@@ -39,5 +42,7 @@ export default class MyApp extends App {
         />
       </Providers>
     );
-  }
 }
+
+
+export default MyApp;

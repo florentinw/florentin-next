@@ -18,6 +18,7 @@
     "create:sitemap": "node sitemap-gen.js"
   },
   "dependencies": {
+    "ackee-tracker": "^3.3.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.1.0",
     "next": "latest",
@@ -31,7 +32,6 @@
     "sharp": "^0.25.2",
     "styled-components": "^5.0.0",
     "terser": "^4.6.13",
-    "use-ackee": "^0.3.0",
     "use-dark-mode": "^2.3.1",
     "vanilla-tilt": "^1.7.0"
   },
