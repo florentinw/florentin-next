@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const MetaHead = ({ title, description, image, slug, children, isHome }) => (
   <Head>
-    <meta charset='utf-8' />
+    <meta charSet='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
     <title>{isHome ? title : `${title} | Florentin Walter — Freelance Graphic Designer`}</title>
     <meta name='title' content={isHome ? title : `${title} | Florentin Walter — Freelance Graphic Designer`} />
