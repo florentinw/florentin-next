@@ -29,21 +29,7 @@ const MetaHead = ({ title, description, image, slug, children, isHome }) => (
     <link rel='shortcut icon' href='https://florentin.design/favicon.ico' type='image/x-icon' />
     <meta property='og:logo' content='https://florentin.design/logo-400.jpg' size='400x400' />
     <meta property='og:logo' content='https://florentin.design/logo-128.jpg' ize='128x128' />
-    <script
-      type='text/javascript' dangerouslySetInnerHTML={{
-        __html: ` var _paq = window._paq || [];
-                  _paq.push(['trackPageView']);
-                  _paq.push(['enableLinkTracking']);
-                  (function () {
-                    var u = "//analytics.florentinwalter.de/";
-                    _paq.push(['setTrackerUrl', u + 'matomo.php']);
-                    _paq.push(['setSiteId', '6']);
-                    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-                    g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-                })();
-              `
-      }}
-    />
+    <script async src="https://analytics.florentin.moeritz.io/florentin.js" data-ackee-server="https://analytics.florentin.moeritz.io" data-ackee-domain-id="838a9105-9d85-48c1-b9ea-4ad4491c2813" data-ackee-opts="{"ignoreLocalhost": true, "detailed": true}"></script>
     {children}
   </Head>
 )
