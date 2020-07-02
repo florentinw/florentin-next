@@ -29,7 +29,7 @@ const MetaHead = ({ title, description, image, slug, children, isHome }) => (
     <link rel='shortcut icon' href='https://florentin.design/favicon.ico' type='image/x-icon' />
     <meta property='og:logo' content='https://florentin.design/logo-400.jpg' size='400x400' />
     <meta property='og:logo' content='https://florentin.design/logo-128.jpg' size='128x128' />
-    <script async src="https://analytics.florentin.moeritz.io/florentin.js" dataAckeeServer="https://analytics.florentin.moeritz.io" dataAckeeDomainId="838a9105-9d85-48c1-b9ea-4ad4491c2813" dataAckeeOpts={"{"ignoreLocalhost": true, "detailed": true}"} />
+    <script async src='https://analytics.florentin.moeritz.io/florentin.js' dataAckeeServer='https://analytics.florentin.moeritz.io' dataAckeeDomainId='838a9105-9d85-48c1-b9ea-4ad4491c2813' />
     {children}
   </Head>
 )
