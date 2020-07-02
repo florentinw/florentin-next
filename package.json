@@ -4,8 +4,8 @@
   "homepage": "https://florentin.design",
   "author": "Florentin Walter <hello@florentin.design> (https://florentin.design)",
   "contributors": [
-      "Tobias Möritz <tobias@moeritz.cc> (https://moeritz.io)"
-    ],
+    "Tobias Möritz <tobias@moeritz.cc> (https://moeritz.io)"
+  ],
   "version": "2.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "github:florentinw/florentin-next",
@@ -31,6 +31,7 @@
     "sharp": "^0.25.2",
     "styled-components": "^5.0.0",
     "terser": "^4.6.13",
+    "use-ackee": "^0.3.0",
     "use-dark-mode": "^2.3.1",
     "vanilla-tilt": "^1.7.0"
   },
