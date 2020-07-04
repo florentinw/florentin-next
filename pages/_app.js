@@ -20,10 +20,10 @@ const MyApp = (props) =>{
       ignoreLocalhost: true,
       detailed: true,
     })
-    if(window.location.hostname == "florentin.design") ackeeTrackerInstance.record();
+    ackeeTrackerInstance.record();
 
     Router.events.on("routeChangeComplete", (path) => {
-      if(window.location.hostname == "florentin.design") ackeeTrackerInstance.record()
+      ackeeTrackerInstance.record()
     });
 
   },[]);
