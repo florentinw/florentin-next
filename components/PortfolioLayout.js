@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import styled from 'styled-components'
-import { motion } from "framer-motion"
 
 import { Container, PortfolioItem } from '.'
 import portfolioData from '../data/portfolio.js'
@@ -27,7 +26,7 @@ const PortfolioLayout = () => {
       window.VanillaTilt.init(document.querySelectorAll('a.apply-tilt'), {
         scale: 1.05,
         max: 3,
-        speed: 800,
+        speed: 1000,
         glare: false,
         'max-glare': 0.5
       })
@@ -38,14 +37,8 @@ const PortfolioLayout = () => {
     <MainWrapper
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{
-        opacity: 0,
-        y: 40,
-        transition: {
-          delay: 0
-        }
-      }}
-      transition={{ delay: 0.6, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}>
+      transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
+    >
       <Wrapper style={{ flex: 7 }}>
         {Object.keys(portfolioData).map((slug, index) => {
           if (!(index & 1)) {

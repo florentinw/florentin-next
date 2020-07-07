@@ -7,12 +7,7 @@ const Header = ({ content }) => (
     style={{ margin: '180px auto 100px auto' }}
     animate={{ opacity: 1 }}
     initial={{ opacity: 0 }}
-    exit={{
-      opacity: 0,
-      transition: {
-        delay: 0.8
-      }
-    }}
+    exit={{}}
     transition={{
       duration: 0.6,
       ease: [0.6, -0.05, 0.01, 0.99]

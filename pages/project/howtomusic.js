@@ -3,7 +3,13 @@ import { BodyText, Section, ImageWithContainer, Gallery, SectionText, CustomLink
 const HowToMusicProject = () => (
   <ProjectWrapper slug='howtomusic'>
     <Section>
-      <ImageWithContainer src={require('../../assets/imgs/portfolio/howtomusic/real1.jpg')} alt='Application of the poster campaign in Berlin' />
+      <ImageWithContainer
+        src={require('../../assets/imgs/portfolio/howtomusic/real1.jpg')}
+        alt='Application of the poster campaign in Berlin'
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
+      />
       <SectionText label='The Campaign' title='All throughout Berlin'>
         <BodyText>
           In order to initially promote the show, a poster campaign was initiated. The posters were hung up all over Berlin, where the

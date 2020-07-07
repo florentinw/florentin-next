@@ -43,6 +43,11 @@ const Wrapper = styled.article`
     color: white !important;
   }
 
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: box-shadow ease-out 1s;
+  }
+
   &.addon-postion-right {
     ${Subtitle} {
       max-width: 40%;
@@ -120,7 +125,7 @@ const Wrapper = styled.article`
 const PortfolioItem = ({ name, headline, skills, background, addonImage, addonPosition, slug }) => (
   <Link href={`/project/${slug}`}>
     <a
-      style={{ textDecoration: 'none', transformStyle: 'preserve-3d', display: 'block', '-webkit-transform-style': 'preserve-3d', '-webkit-backface-visibility': 'hidden' }}
+      style={{ textDecoration: 'none', transformStyle: 'preserve-3d', display: 'block', WebkitTransformStyle: 'preserve-3d', '-webkit-backface-visibility': 'hidden' }}
       aria-label={headline}
       className='apply-tilt'
     >

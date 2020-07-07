@@ -1,5 +1,4 @@
 import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Gallery, MetaHead } from '../components'
-import { motion } from 'framer-motion'
 const AboutPage = () => (
   <>
     <MetaHead
@@ -14,14 +13,8 @@ const AboutPage = () => (
       title='I actually started out in Microsoft Word'
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{
-        opacity: 0,
-        y: 40,
-        transition: {
-          delay: 0
-        }
-      }}
-      transition={{ delay: 0.6, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}>
+      transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
+    >
       <BodyText>
         I've always had a passion for design and art. My journey started out quite early in Microsoft Word, as a young kid and with a
         lot of WordArt. This way I discovered my fascination for visuals and compositions in general.
