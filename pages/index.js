@@ -6,7 +6,7 @@ const index = () => (
     <MetaHead
       isHome
       title='Florentin Walter — Freelance Graphic Designer' description={`${calcAge(
-      '2002/06/17'
+        '2002/06/17'
       )}-year-old digital product designer and dark chocolate enthusiast, focused on creating experiences & beautiful products.`} image='/meta/card.jpg' slug=''
     />
     <Navbar

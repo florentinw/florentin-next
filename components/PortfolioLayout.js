@@ -23,16 +23,22 @@ const PortfolioLayout = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       window.VanillaTilt = require('vanilla-tilt')
-      window.VanillaTilt.init(document.querySelectorAll('.tilt'), {
-        scale: 1.0175,
-        max: 4,
-        speed: 800
+      window.VanillaTilt.init(document.querySelectorAll('a.apply-tilt'), {
+        scale: 1.05,
+        max: 3,
+        speed: 1000,
+        glare: false,
+        'max-glare': 0.5
       })
     }
   })
 
   return (
-    <MainWrapper>
+    <MainWrapper
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
+    >
       <Wrapper style={{ flex: 7 }}>
         {Object.keys(portfolioData).map((slug, index) => {
           if (!(index & 1)) {

@@ -1,5 +1,4 @@
 import { Header, SectionText, BodyText, GoBackHomeButton, Navbar, CustomLink, Gallery, MetaHead } from '../components'
-
 const AboutPage = () => (
   <>
     <MetaHead
@@ -9,7 +8,13 @@ const AboutPage = () => (
     <Header
       content={'Hi there!\nI\'m Florentin, a young designer from Germany focused on creating beautiful products for humans.\n\nWith a focus on user interface, web and print design, I strive to create usable and polished products through passionate and deliberate design.'}
     />
-    <SectionText label='My journey' title='I actually started out in Microsoft Word'>
+    <SectionText
+      label='My journey'
+      title='I actually started out in Microsoft Word'
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
+    >
       <BodyText>
         I've always had a passion for design and art. My journey started out quite early in Microsoft Word, as a young kid and with a
         lot of WordArt. This way I discovered my fascination for visuals and compositions in general.

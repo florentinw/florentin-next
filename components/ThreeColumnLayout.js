@@ -19,8 +19,8 @@ const FlexContainer = styled(Container)`
   }
 `
 
-const ThreeColumnLayout = ({ leftContent, centerContent, rightContent, className }) => (
-  <FlexContainer className={className}>
+const ThreeColumnLayout = ({ leftContent, centerContent, rightContent, className, ...props }) => (
+  <FlexContainer className={className} {...props}>
     <div>{leftContent}</div>
     <div>{centerContent}</div>
     <div>{rightContent}</div>

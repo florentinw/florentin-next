@@ -21,7 +21,7 @@ const PrivacyPolicy = () => (
       }
     />
     <Header content='In general, our website can be used without providing any personal data. If personal data (such as name, postal or email addresses) are collected, this will occur on a voluntary basis' />
-    <Container>
+    <Container initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}>
       <Subtitle>General</Subtitle>
       <BodyText>
         The operator of this site takes the protection of your personal data very seriously. We treat your personal data confidentially

@@ -21,7 +21,7 @@ const TermsAndConditions = () => (
       }
     />
     <Header content='Terms &amp; Conditions' />
-    <Container>
+    <Container initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}>
       <Subtitle>General</Subtitle>
       <BodyText>
         Divergent, conflicting or supplementary terms and conditions of a contracting party shall only apply in the case of an express,

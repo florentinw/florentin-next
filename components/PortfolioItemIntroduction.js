@@ -27,8 +27,8 @@ const InfoGroup = styled.div`
   margin-bottom: 40px;
 `
 
-const PortfolioItemIntroduction = ({ client, skills, children }) => (
-  <Wrapper>
+const PortfolioItemIntroduction = ({ client, skills, children, ...props }) => (
+  <Wrapper {...props}>
     <TitleColumn>
       <InfoGroup>
         <Label>Client</Label>
