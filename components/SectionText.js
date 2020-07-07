@@ -23,8 +23,8 @@ const ContentColumn = styled.main`
   flex: 5;
 `
 
-const SectionText = ({ label, title, text, children }) => (
-  <Wrapper>
+const SectionText = ({ label, title, text, children, ...props }) => (
+  <Wrapper {...props}>
     <TitleColumn>
       {label ? <Label>{label}</Label> : null}
       {title ? <Subtitle nopadding='true'>{title}</Subtitle> : null}
