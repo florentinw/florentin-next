@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useMotionValue, useViewportScroll, useTransform } from 'framer-motion'
+import { useMotionValue, useViewportScroll } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 
 import { Container, Image } from '.'
