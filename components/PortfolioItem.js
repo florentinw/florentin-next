@@ -125,7 +125,7 @@ const Wrapper = styled.article`
 const PortfolioItem = ({ name, headline, skills, background, addonImage, addonPosition, slug }) => (
   <Link href={`/project/${slug}`}>
     <a
-      style={{ textDecoration: 'none', transformStyle: 'preserve-3d', display: 'block', WebkitTransformStyle: 'preserve-3d', '-webkit-backface-visibility': 'hidden' }}
+      style={{ textDecoration: 'none', transformStyle: 'preserve-3d', display: 'block', WebkitTransformStyle: 'preserve-3d', WebkitBackfaceVisibility: 'hidden' }}
       aria-label={headline}
       className='apply-tilt'
     >

@@ -6,9 +6,6 @@ const HowToMusicProject = () => (
       <ImageWithContainer
         src={require('../../assets/imgs/portfolio/howtomusic/real1.jpg')}
         alt='Application of the poster campaign in Berlin'
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
       />
       <SectionText label='The Campaign' title='All throughout Berlin'>
         <BodyText>

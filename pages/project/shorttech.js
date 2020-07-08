@@ -6,9 +6,6 @@ const ShortTechProject = () => (
       <ImageWithContainer
         src={require('../../assets/imgs/portfolio/shorttech/business-cards.jpg')}
         alt='ShortTech business cards'
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
       />
       <SectionText
         label='The Logo'
