@@ -32,7 +32,7 @@
     "responsive-loader": "^1.2.0",
     "sharp": "^0.25.2",
     "styled-components": "^5.0.0",
-    "terser": "^4.6.13",
+    "terser": "^5.1.0",
     "use-dark-mode": "^2.3.1",
     "vanilla-tilt": "^1.7.0"
   },
