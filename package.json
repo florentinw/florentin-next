@@ -20,8 +20,8 @@
   "dependencies": {
     "ackee-tracker": "^4.0.0",
     "framer-motion": "^1.11.1",
+    "imagemin-optipng": "^8.0.0",
     "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^7.1.0",
     "next": "latest",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
