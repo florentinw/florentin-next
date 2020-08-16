@@ -18,7 +18,7 @@
     "create:sitemap": "node sitemap-gen.js"
   },
   "dependencies": {
-    "ackee-tracker": "^3.3.0",
+    "ackee-tracker": "^4.0.0",
     "framer-motion": "^1.11.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.1.0",
