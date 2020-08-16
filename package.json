@@ -21,7 +21,7 @@
     "ackee-tracker": "^3.3.0",
     "framer-motion": "^1.11.1",
     "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-optipng": "^7.1.0",
+    "imagemin-optipng": "^8.0.0",
     "next": "latest",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.0",
