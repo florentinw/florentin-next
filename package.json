@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "ackee-tracker": "^4.0.0",
-    "framer-motion": "^2.6.0",
+    "framer-motion": "^2.6.5",
     "imagemin-optipng": "^8.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "next": "latest",
