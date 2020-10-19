@@ -28,7 +28,7 @@
     "nextjs-sitemap-generator": "^1.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
-    "react-dom": "^16.8.0",
+    "react-dom": "^16.14.0",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.26.2",
     "terser": "^5.2.1",
