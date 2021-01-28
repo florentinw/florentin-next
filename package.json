@@ -39,7 +39,7 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "file-loader": "^6.2.0",
-    "standard": "^16.0.1",
+    "standard": "^16.0.3",
     "url-loader": "^4.1.1"
   }
 }
