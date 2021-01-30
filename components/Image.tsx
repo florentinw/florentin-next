@@ -25,11 +25,17 @@ const ImageC = ({
   width?: number
   src: string
   alt?: string
-  layout?: 'intrinsic' | 'fill' | 'responsive'
+  layout?: 'fixed' | 'fill' | 'responsive' | 'intrinsic'
 }) => (
   <motion.div>
     {layout === 'fill' ? (
-      <ImageComponent src={src} alt={alt} layout={layout} objectFit="cover" />
+      <ImageComponent
+        src={src}
+        alt={alt}
+        layout={layout}
+        objectFit="cover"
+        {...props}
+      />
     ) : (
       <ImageComponent
         src={src}
@@ -37,6 +43,7 @@ const ImageC = ({
         layout={'intrinsic'}
         height={height}
         width={width}
+        {...props}
       />
     )}
   </motion.div>

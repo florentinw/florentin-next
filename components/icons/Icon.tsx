@@ -1,3 +1,5 @@
+import { ReactChild } from 'react'
+
 const Icon = ({
   width,
   height,
@@ -9,6 +11,7 @@ const Icon = ({
   height?: number
   strokeColor?: string
   strokeWidth?: string
+  children?: ReactChild | ReactChild[]
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

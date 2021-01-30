@@ -1,4 +1,3 @@
-import { ReactChild } from 'react'
 import styled from 'styled-components'
 
 import { Container, Label, Subtitle, BodyText } from '.'

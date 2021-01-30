@@ -16,7 +16,7 @@ const Wrapper = styled(CustomLink)<{ children: any }>`
 const GoBackButton = ({
   children,
 }: {
-  children: ReactChild | ReactChild[]
+  children?: ReactChild | ReactChild[]
 }) => (
   <Wrapper isExternal={false} href="/" noBorder>
     <ChevronBackIcon />

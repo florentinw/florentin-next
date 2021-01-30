@@ -17,6 +17,7 @@ const CustomLink = (props: {
   href: string
   isExternal?: boolean
   noBorder?: boolean
+  color?: string
   children?: ReactChild | ReactChild[]
 }) => {
   return props.isExternal ? (

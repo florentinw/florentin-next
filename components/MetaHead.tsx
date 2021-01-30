@@ -69,16 +69,7 @@ const MetaHead = ({
       href="https://florentin.design/favicon.ico"
       type="image/x-icon"
     />
-    <meta
-      property="og:logo"
-      content="https://florentin.design/logo-400.jpg"
-      size="400x400"
-    />
-    <meta
-      property="og:logo"
-      content="https://florentin.design/logo-128.jpg"
-      size="128x128"
-    />
+    <meta property="og:logo" content="https://florentin.design/logo-128.jpg" />
 
     {children}
   </Head>
