@@ -34,14 +34,20 @@ const HowToMusicProject = () => (
           {
             src: '/imgs/portfolio/howtomusic/poster1.jpg',
             alt: 'Poster with musician Nashira',
+            height: 480,
+            width: 350,
           },
           {
             src: '/imgs/portfolio/howtomusic/poster2.jpg',
             alt: 'Poster with musician Danergy',
+            height: 480,
+            width: 350,
           },
           {
             src: '/imgs/portfolio/howtomusic/poster3.jpg',
             alt: 'Poster with musician NIC',
+            height: 480,
+            width: 350,
           },
         ]}
       />
@@ -50,14 +56,20 @@ const HowToMusicProject = () => (
           {
             src: '/imgs/portfolio/howtomusic/poster4.jpg',
             alt: 'Poster with musician NME',
+            height: 480,
+            width: 350,
           },
           {
             src: '/imgs/portfolio/howtomusic/poster5.jpg',
             alt: 'Poster with musician NIC DNCR',
+            height: 480,
+            width: 350,
           },
           {
             src: '/imgs/portfolio/howtomusic/poster6.jpg',
             alt: 'Poster with musician Arina',
+            height: 480,
+            width: 350,
           },
         ]}
       />
@@ -68,10 +80,16 @@ const HowToMusicProject = () => (
           {
             src: '/imgs/portfolio/howtomusic/real2.jpg',
             alt: 'Application of the poster campaign in Berlin',
+            height: 900,
+            width: 600,
+            layout: 'fixed',
           },
           {
             src: '/imgs/portfolio/howtomusic/real3.jpg',
             alt: 'Application of the poster campaign in Berlin',
+            height: 900,
+            width: 600,
+            layout: 'fixed',
           },
         ]}
       />
@@ -98,10 +116,14 @@ const HowToMusicProject = () => (
           {
             src: '/imgs/portfolio/howtomusic/thumbnail.jpg',
             alt: 'Thumbnail template',
+            height: 338,
+            width: 600,
           },
           {
             src: '/imgs/portfolio/howtomusic/logo.jpg',
             alt: 'Logo design',
+            height: 338,
+            width: 600,
           },
         ]}
       />

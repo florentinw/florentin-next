@@ -24,11 +24,15 @@ const OptikBluemelProject = () => (
         <Image
           src="/imgs/portfolio/optikbluemel/iphone.jpg"
           alt="Optik Bluemel Website on a Mobile device"
+          height={360}
+          width={640}
         />
       </SectionText>
       <ImageWithContainer
         src="/imgs/portfolio/optikbluemel/screenshot.jpg"
         alt="Full Optik Bluemel Website"
+        height={200}
+        width={300}
       />
     </Section>
   </ProjectWrapper>

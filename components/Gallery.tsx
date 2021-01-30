@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 import { Container, Image } from '.'
 
 const Wrapper = styled(Container)`
@@ -15,26 +14,16 @@ const Item = styled.div<{ squared?: boolean }>`
   flex: 1 0 300px;
   margin: 12px;
   position: relative;
-  ${(props) =>
-    props.squared &&
+  ${(p) =>
+    p.squared &&
     `
   &::before {
     content: "";
     display: block;
     padding-top: 100%;
   }`}
+
   > img {
-    ${(props) =>
-      props.squared &&
-      `
-      position: absolute;
-      height: 100%;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: null;
-      object-fit: cover;
-      `}
       width: 100%;  
     }
   }
@@ -48,13 +37,16 @@ const Gallery = ({
   images: {
     src: string
     alt?: string
+    height: number
+    width: number
+    layout?: 'fixed' | 'fill'
   }[]
 }) => (
   <Wrapper>
-    {images.map((item, index) => {
+    {images.map((i, index) => {
       return (
         <Item key={index} squared={squared}>
-          <Image {...item} />
+          <Image layout={squared ? 'fill' : 'intrinsic' || i.layout} {...i} />
         </Item>
       )
     })}

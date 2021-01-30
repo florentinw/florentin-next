@@ -85,14 +85,20 @@ const AboutPage = () => (
         {
           src: '/imgs/about/setup.jpg',
           alt: 'My setup',
+          width: 380,
+          height: 380,
         },
         {
           src: '/imgs/about/work.jpg',
           alt: 'Working close together with my clients',
+          width: 624,
+          height: 390,
         },
         {
           src: '/imgs/about/me.jpg',
           alt: 'Myself',
+          width: 380,
+          height: 380,
         },
       ]}
     />

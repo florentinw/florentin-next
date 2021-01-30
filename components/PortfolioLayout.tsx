@@ -43,7 +43,7 @@ const PortfolioLayout = () => {
       <Wrapper style={{ flex: 7 }}>
         {portfolioData.map(
           (p, i) =>
-            !(i % 2) && (
+            i % 2 === 0 && (
               <PortfolioItem key={p.slug} {...p} addonPosition="right" />
             )
         )}
@@ -51,7 +51,9 @@ const PortfolioLayout = () => {
       <Wrapper style={{ flex: 5 }}>
         {portfolioData.map(
           (p, i) =>
-            i % 2 && <PortfolioItem key={p.slug} {...p} addonPosition="right" />
+            i % 2 === 1 && (
+              <PortfolioItem key={p.slug} {...p} addonPosition="bottom" />
+            )
         )}
       </Wrapper>
     </MainWrapper>

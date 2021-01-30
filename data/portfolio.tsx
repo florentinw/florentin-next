@@ -1,22 +1,7 @@
 import { BodyText } from '../components'
+import PortfolioItemTypes from '../types/PortfolioItemTypes'
 
-const portfolio: {
-  slug: string
-  name: string
-  client: string
-  headline: string
-  skills: string
-  summary: string
-  introduction: JSX.Element
-  background: {
-    type: 'img' | 'gradient'
-    src?: string
-    from?: string
-    to?: string
-  }
-  addonImage: string
-  seoImage: string
-}[] = [
+const portfolio: PortfolioItemTypes[] = [
   {
     slug: 'howtomusic',
     name: 'How To Music',
@@ -47,7 +32,11 @@ const portfolio: {
       type: 'img',
       src: '/imgs/portfolio/howtomusic/cover/background.jpg',
     },
-    addonImage: '/imgs/portfolio/howtomusic/poster2.jpg',
+    addon: {
+      src: '/imgs/portfolio/howtomusic/poster2.jpg',
+      height: 480,
+      width: 350,
+    },
     seoImage: '/meta/howtomusic.jpg',
   },
   {
@@ -78,7 +67,11 @@ const portfolio: {
       from: '#7447BA',
       to: '#1DA6CB',
     },
-    addonImage: '/imgs/portfolio/shorttech/cover/addon.jpg',
+    addon: {
+      src: '/imgs/portfolio/shorttech/cover/addon.jpg',
+      height: 100,
+      width: 100,
+    },
     seoImage: '/meta/shorttech.jpg',
   },
   {
@@ -112,7 +105,11 @@ const portfolio: {
       to: '#3a3c42',
       from: '#222427',
     },
-    addonImage: '/imgs/portfolio/optikbluemel/cover/addon.jpg',
+    addon: {
+      src: '/imgs/portfolio/optikbluemel/cover/addon.jpg',
+      height: 100,
+      width: 100,
+    },
     seoImage: '/meta/optikbluemel.jpg',
   },
 ]

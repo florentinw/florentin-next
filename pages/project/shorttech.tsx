@@ -27,7 +27,9 @@ const ShortTechProject = () => (
       >
         <Image
           src="/imgs/portfolio/shorttech/logo-showcase.jpg"
-          alt="ShortTech Logo showcase"
+          alt="ShortTech Logo Showcase"
+          height={500}
+          width={1000}
         />
       </SectionText>
     </Section>
@@ -105,10 +107,14 @@ const ShortTechProject = () => (
           {
             src: '/imgs/portfolio/shorttech/stickers.jpg',
             alt: 'ShortTech stickers',
+            height: 480,
+            width: 640,
           },
           {
-            src: 'imgs/portfolio/shorttech/tshirt.jpg',
+            src: '/imgs/portfolio/shorttech/tshirt.jpg',
             alt: 'ShortTech merchandise',
+            height: 480,
+            width: 640,
           },
         ]}
       />

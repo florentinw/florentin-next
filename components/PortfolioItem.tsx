@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 import Link from 'next/link'
-import Image from 'next/image'
 
 import { Label, Subtitle } from '.'
+import PortfolioItemTypes from '../types/PortfolioItemTypes'
 
 const AddonWrapper = styled.div`
   height: 100%;
@@ -15,7 +15,7 @@ const AddonWrapper = styled.div`
   display: flex;
 `
 
-const AddonImage = styled(Image)`
+const AddonImage = styled.img`
   max-height: 80%;
   max-width: 80%;
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
@@ -134,23 +134,10 @@ const PortfolioItem = ({
   headline,
   skills,
   background,
-  addonImage,
+  addon,
   addonPosition,
   slug,
-}: {
-  name: string
-  headline: string
-  skills: string
-  background: {
-    type: string
-    from?: string
-    to?: string
-    src?: string
-  }
-  addonImage: string
-  addonPosition: string
-  slug: string
-}) => (
+}: PortfolioItemTypes & { addonPosition: string }) => (
   <Link href={`/project/${slug}`}>
     <a
       style={{
@@ -173,7 +160,7 @@ const PortfolioItem = ({
         </Subtitle>
         <Label>{skills}</Label>
         <AddonWrapper>
-          <AddonImage src={addonImage} alt={name} height={10} width={10} />
+          <AddonImage src={addon.src} alt={name} />
         </AddonWrapper>
       </Wrapper>
     </a>
