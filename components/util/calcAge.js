@@ -1,10 +1,10 @@
-const calcAge = dateString => {
-  var today = new Date()
-  var birthDate = new Date(dateString)
-  var age = today.getFullYear() - birthDate.getFullYear()
-  var m = today.getMonth() - birthDate.getMonth()
+const calcAge = (dateString) => {
+  const today = new Date()
+  const birthDate = new Date(dateString)
+  let age = today.getFullYear() - birthDate.getFullYear()
+  const m = today.getMonth() - birthDate.getMonth()
   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-    age--
+    age -= 1
   }
   return age
 }
