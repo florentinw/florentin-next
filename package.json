@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "ackee-tracker": "^5.0.1",
-    "framer-motion": "^2.9.4",
+    "framer-motion": "^3.6.7",
     "next": "^10.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
