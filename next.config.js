@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/notion/:path*',
-        destination: 'https://p.florentin.design/:path*',
+        destination: 'https://portfolio.florentin.co/:path*',
       },
     ]
   },
