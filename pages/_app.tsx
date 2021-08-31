@@ -21,11 +21,11 @@ const App = ({ Component, pageProps, router }: AppProps) => {
           detailed: true,
         }
       )
-      if (window.location.hostname === 'florentin.design')
+      if (window.location.hostname === 'florentin.co')
         ackeeTrackerInstance.record('838a9105-9d85-48c1-b9ea-4ad4491c2813')
 
       Router.events.on('routeChangeComplete', () => {
-        if (window.location.hostname === 'florentin.design')
+        if (window.location.hostname === 'florentin.co')
           ackeeTrackerInstance.record('838a9105-9d85-48c1-b9ea-4ad4491c2813')
       })
     }
